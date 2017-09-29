@@ -37,3 +37,34 @@ for item in range(1,100):
 	faker()
 	print(item)
 
+
+
+"""
+
+{
+   'title':'mrs',
+   'age':31,
+   'surname':'Ward',
+   'photo':'https://uinames.com/api/photos/female/9.jpg',
+   'credit_card':{
+      'security':525,
+      'number':'7992-3969-6718-4028',
+      'expiration':'3/22',
+      'pin':2880
+   },
+   'birthday':{
+      'raw':509637629,
+      'mdy':'02/24/1986',
+      'dmy':'24/02/1986'
+   },
+   'region':'England',
+   'name':'Gracie',
+   'password':'Ward86%',
+   'email':'gracie_ward@example.com',
+   'gender':'female',
+   'phone':'(193) 414 1016'
+}
+
+
+"""
+
