@@ -2,10 +2,9 @@ import urllib.request
 import json
 
 print("Fake person starting...")
-
 data = ""
 
-with urllib.request.urlopen('https://uinames.com/api/?ext') as f:
+with urllib.request.urlopen('https://uinames.com/api/?ext&gender=female&region=England') as f:
 	print("checking API...\n")
 	# print(f.read(300))
 	# saving response as byte
@@ -15,7 +14,8 @@ with urllib.request.urlopen('https://uinames.com/api/?ext') as f:
 response = data.decode('utf-8')
 
 data = json.loads(response)
-
+print(data)
+print("\n")
 print(data["name"])
 print(data["surname"])
 print(data["gender"])
